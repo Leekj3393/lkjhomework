@@ -1,0 +1,46 @@
+@font-face {
+    font-family: abster;
+    src: url(font/abster-webfont.woff) format('woff');
+}
+
+.skills-content {
+  margin-top: 30px;
+}
+
+.skills-content .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.skills-content .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills-content .progress .skill {
+  padding: 10px 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  color: #3b434a;
+}
+
+.skills-content .progress-bar {
+  width: 0;
+  height: 10px;
+  background-color: green;
+  transition: width 1s ease-in-out;
+}
+
+.skills-content .progress-bar-wrap {
+  background: #e6e8eb;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+/* 메인 글자 */
+
