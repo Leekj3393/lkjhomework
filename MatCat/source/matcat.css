@@ -1,0 +1,17 @@
+html {
+    background-color: #FBF9F1;
+}
+
+#help01{
+    background-color: white;
+    margin-top: 20%;
+    margin-bottom: 70%;
+    margin-right: 30%;
+    margin-left: 30%;
+    width: 50%;
+    height: 50%;
+}
+#help01table{
+    width: 100%;
+    text-align: center;
+}
